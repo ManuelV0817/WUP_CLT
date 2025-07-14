@@ -104,6 +104,7 @@ p <- ggplot(my1000, aes(x=k9),col=sex) +
             color="blue", linetype="dashed", size=1)
 p + ggtitle("n = 9") +
   xlab("temperature") + ylab(" density")
+print(paste('mean = ', mean(my1000$k9),' sd = ',sd(my1000$k9)))
 ```
 
-From observing the graph we can see that every time it is knitted we get a different outcome. It also gives us the value of standard deviation.
+From observing the graph we can see that every time it is knitted we get a different outcome. It also gives us the value of standard deviation. It was 41.9729878220113 before and now it should be about half of what it was. However it is less than half at 13.4020485841505.
