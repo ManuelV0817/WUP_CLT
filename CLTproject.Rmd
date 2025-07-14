@@ -106,3 +106,4 @@ p + ggtitle("n = 9") +
   xlab("temperature") + ylab(" density")
 ```
 
+From observing the graph we can see that every time it is knitted we get a different outcome. It also gives us the value of standard deviation.
